@@ -14,6 +14,7 @@
 }
 
 .Card__Button {
+  font-family: 'Patrick Hand', cursive;
   border-style: unset;
   background: linear-gradient(
     45deg,
@@ -42,6 +43,19 @@
 
 .Card__Bookmark {
   position: absolute;
-  top: -5px;
+  top: 5px;
   right: 5px;
+  width: 50px;
+}
+
+.Card__Bookmark:hover {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 50px;
+  scale: 120%;
+}
+
+.Card__Bio {
+  margin-top: 0;
 }
