@@ -18,6 +18,10 @@
   background-position: center;
 }
 
+.Pagination {
+  display: block;
+}
+
 .Pagination__Button {
   border-style: unset;
   background: linear-gradient(
