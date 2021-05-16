@@ -2,8 +2,38 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
+  gap: 40px;
+  padding: 40px;
   text-align: center;
   background-color: black;
   color: white;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.App__Background {
+  background-image: url('./assets/images/mobile.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.Pagination__Button {
+  border-style: unset;
+  background: linear-gradient(
+    45deg,
+    rgba(34, 162, 189, 1) 0%,
+    rgba(113, 222, 245, 1) 100%
+  );
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80px;
+  margin: 0 10px;
+  border: rgb(184, 242, 253) 1px solid;
+}
+
+.Pagination__Button:hover {
+  border: rgb(213, 255, 145) 2px solid;
+  box-shadow: rgb(139, 207, 33) 0px 0px 40px;
+  scale: 110%;
 }

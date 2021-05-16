@@ -1,0 +1,19 @@
+.Header {
+  display: block;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Header__Heading {
+  background-color: transparent;
+  line-height: 0.2;
+  margin: 0 auto;
+  width: fit-content;
+  color: #22a2bd;
+  box-shadow: #7cff47 0 0 20px;
+}
+
+.Header__Image {
+  width: 300px;
+}

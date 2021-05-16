@@ -1,21 +1,47 @@
 .Card {
+  position: relative;
   text-align: center;
-  padding: 30px;
-  width: 350px;
-  background-color: #3d373c;
-  border-radius: 150px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border: rgb(177, 177, 177) 0.5px solid;
-  box-shadow: #83d2e4 -5px 5px 50px;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  background: linear-gradient(
+    45deg,
+    rgba(34, 162, 189, 1) 0%,
+    rgba(113, 222, 245, 1) 100%
+  );
+  border-radius: 20px;
+  scale: 100%;
+}
+
+.Card__Button {
+  border-style: unset;
+  background: linear-gradient(
+    45deg,
+    rgba(139, 207, 33, 1) 0%,
+    rgba(213, 255, 145, 1) 100%
+  );
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  width: 80px;
+  margin: 0 10px 15px 0;
+  border: rgb(184, 242, 253) 1px solid;
+}
+
+.Card:hover {
+  border: rgb(213, 255, 145) 3px solid;
+  box-shadow: rgb(139, 207, 33) 0px 0px 40px;
+  scale: 110%;
 }
 
 .Card__Image {
   width: 100%;
-  border-top-left-radius: 130px;
-  border-top-right-radius: 130px;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border: rgb(177, 177, 177) 0.5px solid;
-  box-shadow: rgb(139, 207, 33) -5px 5px 20px;
+  border-radius: 10px;
+  border: rgb(184, 242, 253) 2px solid;
+}
+
+.Card__Bookmark {
+  position: absolute;
+  top: -5px;
+  right: 5px;
 }
