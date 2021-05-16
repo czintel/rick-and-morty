@@ -11,10 +11,11 @@
 }
 
 .App__Background {
-  background-image: url('./assets/images/mobile.jpg');
+  background-image: url('./assets/images/desktop.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 .Pagination__Button {
