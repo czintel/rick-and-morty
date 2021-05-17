@@ -4,7 +4,7 @@ import bmi from './assets/images/bookmark-inactive.png'
 
 import { useState } from 'react'
 
-export default function Card({ image, name, species, origin }) {
+export default function Card({ image, name, species, origin, status }) {
   const [isActive, setIsActive] = useState(false)
   const [isBookmarked, setIsBookmarked] = useState(false)
   console.log(bmi)
@@ -24,7 +24,8 @@ export default function Card({ image, name, species, origin }) {
       </button>
       {isActive && (
         <p className="Card__Bio">
-          {name} is a {species} from {origin.name}
+          {name} is a {species} from {origin.name} and is currently known to be{' '}
+          {status.toLowerCase()}.
         </p>
       )}
     </section>

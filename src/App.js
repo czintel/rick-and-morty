@@ -30,7 +30,7 @@ function App() {
       <section className="App App__Background">
         <Header />
         {characters.map(character => {
-          const { id, image, name, species, origin } = character
+          const { id, image, name, species, origin, status } = character
           return (
             <Card
               key={id}
@@ -38,6 +38,7 @@ function App() {
               name={name}
               species={species}
               origin={origin}
+              status={status}
             />
           )
         })}
